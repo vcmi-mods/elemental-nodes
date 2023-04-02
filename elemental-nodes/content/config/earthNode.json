@@ -1,0 +1,46 @@
+{
+	"waterNode" : {
+		"name" : "Earth Node",
+		"handler": "configurable",
+		"types" : {
+			"earthNode" :
+			{
+				"name" : "Earth Node (+20% of Earth Magic damage once per hero)",
+				"rmg" : {
+					"value"		: 3500,
+					"rarity"	: 100,
+					"mapLimit" : 50
+				},
+				"sounds" : {
+					"ambient" : ["LOOPSHRIN"],
+					"visit" : ["TEMPLE"]
+				},
+				"rewards" :
+				[	
+					{
+						"bonuses" : [
+                            {
+                                "type" : "EARTH_SPELL_DMG_PREMY",
+                                "val" : 20,
+                                "valueType" : "BASE_NUMBER",
+                                "duration" : "PERMANENT"
+                            } ],
+						"message": "{Earth Node}\r\n\r\nYou come across a crystal formation shining among the rocks, which appears to be a node of magic. You drain the power from it, realizing that your earth spells will now be more potent."
+					}
+				],
+				"onVisitedMessage": "{Earth Node}\r\n\r\nYou already visited that node",
+				"visitMode" : "hero",
+				"templates" :
+				{
+					"default" :
+					{
+						"animation" : "sf1478", 
+						"mask" : [ "VVV", "BBB", "BAB"], 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "dirt", "sand", "rough", "subterra"]
+					}
+				}
+			}
+		}
+	}		
+}

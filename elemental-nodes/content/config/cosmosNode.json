@@ -1,0 +1,65 @@
+{
+	"cosmosNode" : {
+		"name" : "Cosmos Node",
+		"handler": "configurable",
+		"types" : {
+			"cosmosNode" :
+			{
+				"name" : "Cosmos Node (+20% damage to every school of magic once per hero)",
+				"rmg" : {
+					"value"		: 14000,
+					"rarity"	: 25,
+					"mapLimit" : 50
+				},
+				"sounds" : {
+					"ambient" : ["LOOPSHRIN"],
+					"visit" : ["TEMPLE"]
+				},
+				"rewards" :
+				[	
+					{
+						"bonuses" :
+						[
+                            {
+                                "type" : "AIR_SPELL_DMG_PREMY",
+                                "val" : 20,
+                                "valueType" : "BASE_NUMBER",
+                                "duration" : "PERMANENT"
+                            },
+							{
+                                "type" : "WATER_SPELL_DMG_PREMY",
+                                "val" : 20,
+                                "valueType" : "BASE_NUMBER",
+                                "duration" : "PERMANENT"
+                            },
+							{
+                                "type" : "FIRE_SPELL_DMG_PREMY",
+                                "val" : 20,
+                                "valueType" : "BASE_NUMBER",
+                                "duration" : "PERMANENT"
+                            },
+							{
+                                "type" : "EARTH_SPELL_DMG_PREMY",
+                                "val" : 20,
+                                "valueType" : "BASE_NUMBER",
+                                "duration" : "PERMANENT"
+                            }
+						],
+						"message": "{Cosmos Node}\r\n\r\nYou come across a sculpted crystal floating above the rocks, which appears to be a node of cosmic magic. You drain the power from it, realizing that all your spells will now be more potent."
+					}
+				],
+				"onVisitedMessage": "{Cosmos Node}\r\n\r\nYou already visited that node",
+				"visitMode" : "hero",
+				"templates" :
+				{
+					"default" :
+					{
+						"animation" : "tpob_drc", 
+						"mask" : [ "VVV", "BBB", "BAB"], 
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}		
+}

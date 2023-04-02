@@ -1,0 +1,24 @@
+	{
+	"author" : "Warmonger",
+//Graphics - unknown author
+
+	"contact" : "TODO",
+	"description" : "Magic nodes boost the spell damage of a visitng hero permanently.\n\nPorted from TEW IV map by Salamandre",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Objects",
+	"name" : "Elemental Nodes",
+	"version" : "1.0.0",
+	"compatibility":
+	{
+		"min" : "1.1.0"
+	},	
+	"objects" :
+    [ 
+		"config/airNode",
+		"config/cosmosNode",
+		"config/earthNode",
+		"config/fireNode",
+		"config/waterNode"
+    ]
+}

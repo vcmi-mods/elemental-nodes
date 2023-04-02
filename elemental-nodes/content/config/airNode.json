@@ -1,0 +1,46 @@
+{
+	"airNode" : {
+		"name" : "Air Node",
+		"handler": "configurable",
+		"types" : {
+			"airNode" :
+			{
+				"name" : "Air Node (+20% of Air Magic damage once per hero)",
+				"rmg" : {
+					"value"		: 3500,
+					"rarity"	: 100,
+					"mapLimit" : 50
+				},
+				"sounds" : {
+					"ambient" : ["LOOPSHRIN"],
+					"visit" : ["TEMPLE"]
+				},
+				"rewards" :
+				[	
+					{
+						"bonuses" : [
+                            {
+                                "type" : "AIR_SPELL_DMG_PREMY",
+                                "val" : 20,
+                                "valueType" : "BASE_NUMBER",
+                                "duration" : "PERMANENT"
+                            } ],
+						"message": "{Air Node}\r\n\r\nYou come across a crystal formation shining among the rocks, which appears to be a node of magic. You drain the power from it, realizing that your air spells will now be more potent."
+					}
+				],
+				"onVisitedMessage": "{Air Node}\r\n\r\nYou already visited that node",
+				"visitMode" : "hero",
+				"templates" :
+				{
+					"default" :
+					{
+						"animation" : "sf1474", 
+						"mask" : [ "VVV", "VBBB", "VBAB"], 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "snow", "grass", "rough", "sand"]
+					}
+				}
+			}
+		}
+	}		
+}
