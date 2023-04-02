@@ -9,6 +9,10 @@
 	"modType" : "Objects",
 	"name" : "Elemental Nodes",
 	"version" : "1.0.0",
+	"changelog" :
+	{
+		"1.0.0" : ["Initial release"]
+	}, 
 	"compatibility":
 	{
 		"min" : "1.1.0"
