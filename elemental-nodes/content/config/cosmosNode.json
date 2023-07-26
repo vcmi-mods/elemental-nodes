@@ -21,25 +21,29 @@
 						"bonuses" :
 						[
                             {
-                                "type" : "AIR_SPELL_DMG_PREMY",
+                                "type" : "SPELL_DAMAGE",
+								"subtype" : "spellSchool.water",
                                 "val" : 20,
                                 "valueType" : "BASE_NUMBER",
                                 "duration" : "PERMANENT"
                             },
 							{
-                                "type" : "WATER_SPELL_DMG_PREMY",
+                                "type" : "SPELL_DAMAGE",
+								"subtype" : "spellSchool.fire",
                                 "val" : 20,
                                 "valueType" : "BASE_NUMBER",
                                 "duration" : "PERMANENT"
                             },
 							{
-                                "type" : "FIRE_SPELL_DMG_PREMY",
+                                "type" : "SPELL_DAMAGE",
+								"subtype" : "spellSchool.earth",
                                 "val" : 20,
                                 "valueType" : "BASE_NUMBER",
                                 "duration" : "PERMANENT"
                             },
 							{
-                                "type" : "EARTH_SPELL_DMG_PREMY",
+                                "type" : "SPELL_DAMAGE",
+								"subtype" : "spellSchool.air",
                                 "val" : 20,
                                 "valueType" : "BASE_NUMBER",
                                 "duration" : "PERMANENT"

@@ -20,7 +20,8 @@
 					{
 						"bonuses" : [
                             {
-                                "type" : "AIR_SPELL_DMG_PREMY",
+                                "type" : "SPELL_DAMAGE",
+								"subtype" : "spellSchool.air",
                                 "val" : 20,
                                 "valueType" : "BASE_NUMBER",
                                 "duration" : "PERMANENT"

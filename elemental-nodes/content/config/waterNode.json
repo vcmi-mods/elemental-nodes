@@ -20,7 +20,8 @@
 					{
 						"bonuses" : [
                             {
-                                "type" : "WATER_SPELL_DMG_PREMY",
+                                "type" : "SPELL_DAMAGE",
+								"subtype" : "spellSchool.water",
                                 "val" : 20,
                                 "valueType" : "BASE_NUMBER",
                                 "duration" : "PERMANENT"
