@@ -6,11 +6,12 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Objects",
 	"name" : "Elemental Nodes",
-	"version" : "1.0.1",
+	"version" : "1.0.2",
 	"changelog" :
 	{
 		"1.0.0" : ["Initial release"],
-		"1.0.1" : ["Update format to vcmi-1.3"]
+		"1.0.1" : ["Update format to vcmi-1.3"],
+		"1.0.2" : ["Fixed mislabeled earth node"]
 	}, 
 	"compatibility":
 	{

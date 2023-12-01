@@ -1,5 +1,5 @@
 {
-	"waterNode" : {
+	"earthNode" : {
 		"name" : "Earth Node",
 		"handler": "configurable",
 		"types" : {
