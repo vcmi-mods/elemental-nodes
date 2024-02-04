@@ -5,7 +5,7 @@
 		"types" : {
 			"cosmosNode" :
 			{
-				"name" : "Cosmos Node (+20% damage to every school of magic once per hero)",
+				"name" : "Cosmos Node",
 				"rmg" : {
 					"value"		: 14000,
 					"rarity"	: 25,
@@ -15,6 +15,7 @@
 					"ambient" : ["LOOPSHRIN"],
 					"visit" : ["TEMPLE"]
 				},
+				"description" : "(+20% spell damage for every magic school once per hero)",
 				"rewards" :
 				[	
 					{

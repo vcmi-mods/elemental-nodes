@@ -5,7 +5,7 @@
 		"types" : {
 			"fireNode" :
 			{
-				"name" : "Fire Node (+20% of Fire Magic damage once per hero)",
+				"name" : "Fire Node",
 				"rmg" : {
 					"value"		: 3500,
 					"rarity"	: 100,
@@ -15,6 +15,7 @@
 					"ambient" : ["LOOPSHRIN"],
 					"visit" : ["TEMPLE"]
 				},
+				"description" : "(+20% to Fire Magic damage once per hero)",
 				"rewards" :
 				[	
 					{

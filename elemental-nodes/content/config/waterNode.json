@@ -5,7 +5,7 @@
 		"types" : {
 			"waterNode" :
 			{
-				"name" : "Water Node (+20% of Water Magic damage once per hero)",
+				"name" : "Water Node",
 				"rmg" : {
 					"value"		: 3500,
 					"rarity"	: 100,
@@ -15,6 +15,7 @@
 					"ambient" : ["LOOPSHRIN"],
 					"visit" : ["TEMPLE"]
 				},
+				"description" : "(+20% to Water Magic damage once per hero)",
 				"rewards" :
 				[	
 					{

@@ -5,7 +5,7 @@
 		"types" : {
 			"airNode" :
 			{
-				"name" : "Air Node (+20% of Air Magic damage once per hero)",
+				"name" : "Air Node",
 				"rmg" : {
 					"value"		: 3500,
 					"rarity"	: 100,
@@ -15,7 +15,8 @@
 					"ambient" : ["LOOPSHRIN"],
 					"visit" : ["TEMPLE"]
 				},
-				"rewards" :
+				"description" : "(+20% to Air Magic damage once per hero)",
+				"rewards" : 
 				[	
 					{
 						"bonuses" : [
