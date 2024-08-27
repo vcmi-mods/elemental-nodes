@@ -24,7 +24,7 @@
 	},
 	"russian" : {
 		"name" : "Узлы элементалей",
-		"description" : "4 вида узлов",
+		"description" : "Магические узлы навсегда увеличивают урон от заклинаний гостящего героя.",
 		"translations" : [
 			"translation/elemental-nodes/russian.json"
 		]
