@@ -6,14 +6,15 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Objects",
 	"name" : "Elemental Nodes",
-	"version" : "1.0.4",
+	"version" : "1.0.5",
 	"changelog" :
 	{
 		"1.0.0" : ["Initial release"],
 		"1.0.1" : ["Update format to vcmi-1.3"],
 		"1.0.2" : ["Fixed mislabeled earth node"],
 		"1.0.3" : ["Use description field"],
-		"1.0.4" : ["Russian translation by Anton Sergeew"]
+		"1.0.4" : ["Russian translation by Anton Sergeew"],
+		"1.0.5" : ["Czech translation by George King"]
 	}, 
 	"chinese" : {
 		"name" : "元素节点",
@@ -27,6 +28,13 @@
 		"description" : "Магические узлы навсегда увеличивают урон от заклинаний гостящего героя.",
 		"translations" : [
 			"translation/elemental-nodes/russian.json"
+		]
+	},
+	"czech" : {
+		"name" : "Elementární uzel",
+		"description" : "Magické uzly mohou trvale zvýšit sílu kouzel navštíveného hrdiny.\n\nImportováno z mapy TEW IV od Salamandre",
+		"translations" : [
+			"translation/elemental-nodes/czech.json"
 		]
 	},
 	"compatibility":
